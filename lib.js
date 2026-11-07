@@ -1,4 +1,4 @@
-const RB = location.hostname.endsWith("github.io") ? "./" : /(^|\.)mushafuk\.online$/.test(location.hostname) ? "/" : "https://nihomaho9-ui.github.io/quran-medine/";
+const RB = location.hostname === "t.mushafuk.online" ? "https://mushafuk.online/" : location.hostname.endsWith("github.io") ? "./" : /(^|\.)mushafuk\.online$/.test(location.hostname) ? "/" : "https://nihomaho9-ui.github.io/quran-medine/";
 if (document.currentScript) { const fl = document.createElement("link"); fl.rel = "stylesheet"; fl.href = new URL("fonts.css?v=4", document.currentScript.src).href; document.head.appendChild(fl); }
 // Settings (tafsir / translation downloads, text size) and the ayah sheet. Data is stored on the device (IndexedDB) and works offline.
 (function () {
@@ -1351,6 +1351,18 @@ if (document.currentScript) { const fl = document.createElement("link"); fl.rel 
       return;
     }
     if (!r) {
+      const want = LIST.find((x) => x.k === kind && x.id === p[kind]);
+      if (want && !running[want.id]) {
+        const box = el("div", "qm-empty"); box.append(el("p", "", "…")); body.append(box);
+        download(want, () => {}).then(() => {
+          if (fsState && fsState.kind === kind && fsState.n === pg.n) openFull(kind, focusKey, pg.n);
+        }).catch(() => {
+          box.replaceChildren();
+          box.append(el("p", "", T("Hələ endirilməyib.")));
+          const b = el("button", "qm-rb main", T("Ayarlarda endir")); b.onclick = () => { fsEl.hidden = true; openSettings(kind); }; box.append(b);
+        });
+        return;
+      }
       const box = el("div", "qm-empty"); box.append(el("p", "", T("Hələ endirilməyib.")));
       const b = el("button", "qm-rb main", T("Ayarlarda endir")); b.onclick = () => { fsEl.hidden = true; openSettings(kind); }; box.append(b); body.append(box);
     } else {
