@@ -1256,10 +1256,10 @@ if (document.currentScript) { const fl = document.createElement("link"); fl.rel 
     if (window.__qmPop) { window.__qmPop = false; return false; }
     if (path === href) return false;
     if (Date.now() - (window.__qmTurnAt || 0) < 450) return true;
-    if (!document.getElementById("page")) {
+    if (!document.getElementById("page") || !mushafTurnHref(n)) {
       window.__qmTurnAt = Date.now();
       turnLock = true;
-      location.assign(href + location.search);
+      location.assign(href + location.search + location.hash);
       return true;
     }
     window.__qmTurnAt = Date.now();
