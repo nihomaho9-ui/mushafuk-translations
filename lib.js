@@ -1297,6 +1297,7 @@ if (document.currentScript) { const fl = document.createElement("link"); fl.rel 
     finger = null;
     if (target && target.closest && target.closest("#page,#gate,.qm-full")) return;
     if (Math.abs(dx) < 36 || Math.abs(dx) < Math.abs(dy)) return;
+    if (!mushafTurnHref(1)) return;
     const m = location.pathname.match(/\/page\/(\d+)\/?$/);
     if (!m) return;
     const n = +m[1] + (dx > 0 ? 1 : -1);
