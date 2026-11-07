@@ -48,7 +48,7 @@
   art.dataset.neat = "1";
   art.dataset.ready = "1";
   var fix = document.createElement("style");
-  fix.textContent = "body>header,#gate,#page,.num,#qj{display:none!important}";
+  fix.textContent = "html,body{height:auto!important;overflow:auto!important;display:block!important;-webkit-overflow-scrolling:touch}body>header,#gate,#page,.num,#qj{display:none!important}";
   document.head.appendChild(fix);
 
   function trDir() {
