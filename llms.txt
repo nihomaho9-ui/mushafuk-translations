@@ -60,3 +60,4 @@ This host covers many interface and translation languages, listed in the catalog
 
 - [Sitemap index](https://t.mushafuk.online/sitemap.xml)
 - [robots.txt](https://t.mushafuk.online/robots.txt)
+- [License](https://t.mushafuk.online/LICENSE): All rights reserved. This covers Mushafuk's own work and compilation only. Quran text, translations and tafsirs remain under their authors' and publishers' rights (see Masadir / sources).
