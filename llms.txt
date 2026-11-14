@@ -1,24 +1,62 @@
-# الترجمات
+# Mushafuk — translations
 
-> ترجمات معاني القرآن والتفاسير المترجمة. https://t.mushafuk.online
+> Quran translations and translated tafsirs at https://t.mushafuk.online. Part of Mushafuk (https://mushafuk.online). Free, no ads.
 
-الأردية والبنغالية والفارسية والإندونيسية في https://t1.mushafuk.online/llms.txt
+This host publishes translations of the meanings of the Quran and some translated tafsirs, as static HTML. A few books are on the sister host https://t1.mushafuk.online/; those are linked from this catalogue and are marked below.
 
-## ترجمات المعاني
+## Start here
 
-صفحة المصحف: https://t.mushafuk.online/{language}/{translator}/page/{n}/ و n من 1 إلى 604.
+- [Catalogue on this host](https://t.mushafuk.online/)
+- [Main translation catalogue](https://mushafuk.online/translations/)
+- [More books (t1)](https://t1.mushafuk.online/)
+- [Madinah mushaf](https://mushafuk.online/)
+- [Translated tafsirs index](https://t.mushafuk.online/tafsir/tercume/)
+- [Sources](https://t.mushafuk.online/sources.html)
+- [FAQ](https://t.mushafuk.online/faq.html)
 
-- az/tercume: azərbaycanca، Əlixan Musayev. https://t.mushafuk.online/az/tercume/page/1/
-- ru/perevod، en/translation، en/hilali، en/rowwad، de/bubenheim، es/garcia، fr/maach، ha/gumi، hi/omari، ja/sato، ku/bamoki، ky/hakimov، nl/rowwad، ps/roovad، pt/nasr، so/yacob، ta/omar، tg/arifi، tr/meal، tr/rowwad، ug/saleh، uz/mansour
+## Quran translations on this host
 
-## التفاسير المترجمة
+- [Azerbaijani — Alikhan Musayev](https://t.mushafuk.online/az/tercume/)
+- [Russian — Elmir Kuliev](https://t.mushafuk.online/ru/perevod/)
+- [English — Saheeh International](https://t.mushafuk.online/en/translation/)
+- [English — Hilali & Khan](https://t.mushafuk.online/en/hilali/)
+- [English — Rowwad](https://t.mushafuk.online/en/rowwad/)
+- [German — Bubenheim](https://t.mushafuk.online/de/bubenheim/)
+- [Spanish — Isa García](https://t.mushafuk.online/es/garcia/)
+- [French — Rachid Maach](https://t.mushafuk.online/fr/maach/)
+- [Hausa — Abubakar Gumi](https://t.mushafuk.online/ha/gumi/)
+- [Hindi — Umari](https://t.mushafuk.online/hi/omari/)
+- [Japanese — Sato](https://t.mushafuk.online/ja/sato/)
+- [Kurdish — Bamoki](https://t.mushafuk.online/ku/bamoki/)
+- [Kyrgyz — Hakimov](https://t.mushafuk.online/ky/hakimov/)
+- [Dutch — Rowwad](https://t.mushafuk.online/nl/rowwad/)
+- [Pashto — Roovad](https://t.mushafuk.online/ps/roovad/)
+- [Portuguese — Helmi Nasr](https://t.mushafuk.online/pt/nasr/)
+- [Somali — Yacquub](https://t.mushafuk.online/so/yacob/)
+- [Tamil — Omar](https://t.mushafuk.online/ta/omar/)
+- [Tajik — Ravod](https://t.mushafuk.online/tg/arifi/)
+- [Turkish — Ali Özek](https://t.mushafuk.online/tr/meal/)
+- [Turkish — Rowwad](https://t.mushafuk.online/tr/rowwad/)
+- [Uyghur — Salih](https://t.mushafuk.online/ug/saleh/)
+- [Uzbek — Mansur](https://t.mushafuk.online/uz/mansour/)
 
-- المختصر: https://t.mushafuk.online/tafsir/tercume/mukhtasar/{language}/
-- السعدي: https://t.mushafuk.online/tafsir/tercume/saadi/{language}/
-- ابن كثير: https://t.mushafuk.online/tafsir/tercume/ibnkathir/{language}/
+On t1: [Persian — Roovad](https://t1.mushafuk.online/fa/roovad/), [Urdu — Junagarhi](https://t1.mushafuk.online/ur/junagarhi/).
+
+## Translated tafsirs on this host
+
+al-Mukhtasar: [Assamese](https://t.mushafuk.online/tafsir/tercume/mukhtasar/as/), [Azerbaijani](https://t.mushafuk.online/tafsir/tercume/mukhtasar/az/), [Bosnian](https://t.mushafuk.online/tafsir/tercume/mukhtasar/bs/), [English](https://t.mushafuk.online/tafsir/tercume/mukhtasar/en/), [Spanish](https://t.mushafuk.online/tafsir/tercume/mukhtasar/es/), [Fulfulde](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ff/), [French](https://t.mushafuk.online/tafsir/tercume/mukhtasar/fr/), [Hindi](https://t.mushafuk.online/tafsir/tercume/mukhtasar/hi/), [Italian](https://t.mushafuk.online/tafsir/tercume/mukhtasar/it/), [Japanese](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ja/), [Khmer](https://t.mushafuk.online/tafsir/tercume/mukhtasar/km/), [Kurdish](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ku/), [Kyrgyz](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ky/), [Malayalam](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ml/), [Pashto](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ps/), [Russian](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ru/), [Sinhala](https://t.mushafuk.online/tafsir/tercume/mukhtasar/si/), [Serbian](https://t.mushafuk.online/tafsir/tercume/mukhtasar/sr/), [Tamil](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ta/), [Telugu](https://t.mushafuk.online/tafsir/tercume/mukhtasar/te/), [Thai](https://t.mushafuk.online/tafsir/tercume/mukhtasar/th/), [Tagalog](https://t.mushafuk.online/tafsir/tercume/mukhtasar/tl/), [Turkish](https://t.mushafuk.online/tafsir/tercume/mukhtasar/tr/), [Uyghur](https://t.mushafuk.online/tafsir/tercume/mukhtasar/ug/), [Uzbek](https://t.mushafuk.online/tafsir/tercume/mukhtasar/uz/), [Vietnamese](https://t.mushafuk.online/tafsir/tercume/mukhtasar/vi/), [Chinese](https://t.mushafuk.online/tafsir/tercume/mukhtasar/zh/).
+
+al-Sa'di: [Russian](https://t.mushafuk.online/tafsir/tercume/saadi/ru/), [Albanian](https://t.mushafuk.online/tafsir/tercume/saadi/sq/), [Turkish](https://t.mushafuk.online/tafsir/tercume/saadi/tr/).
+
+Ibn Kathir: [English](https://t.mushafuk.online/tafsir/tercume/ibnkathir/en/), [Russian](https://t.mushafuk.online/tafsir/tercume/ibnkathir/ru/).
+
+Other language editions of those tafsirs are on https://t1.mushafuk.online/.
+
+## Languages
+
+This host covers many interface and translation languages, listed in the catalogue above. The Arabic mushaf itself is on https://mushafuk.online/.
 
 ## For machines
 
-- [Sitemap](https://t.mushafuk.online/sitemap.xml)
+- [Sitemap index](https://t.mushafuk.online/sitemap.xml)
 - [robots.txt](https://t.mushafuk.online/robots.txt)
-- Parent index: https://mushafuk.online/llms.txt
