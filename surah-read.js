@@ -879,6 +879,32 @@
     if (window.QM_TURN) window.QM_TURN(n);
     else location.assign(href);
   }
+  function bindSwipe(root) {
+    if (!root || root.dataset.swipe) return;
+    root.dataset.swipe = "1";
+    let sx = null, slock = null, sdx = 0;
+    const down = (x, y, t) => {
+      if (t && t.closest && t.closest("a,button,input,textarea,select,label")) { sx = null; return; }
+      sx = x; slock = null; sdx = 0;
+    };
+    const move = (x) => {
+      if (sx == null) return;
+      sdx = x - sx;
+      if (!slock && Math.abs(sdx) > 12) slock = "x";
+    };
+    const up = () => {
+      if (sx == null) return;
+      const dx = sdx, was = slock;
+      sx = null; slock = null;
+      if (was === "x" && Math.abs(dx) > 42) goPage(curN + (dx > 0 ? 1 : -1));
+    };
+    root.addEventListener("touchstart", (e) => { if (e.touches.length !== 1) return; down(e.touches[0].clientX, e.touches[0].clientY, e.target); }, { passive: true });
+    root.addEventListener("touchmove", (e) => { if (!e.touches.length) return; move(e.touches[0].clientX); }, { passive: true });
+    root.addEventListener("touchend", up, { passive: true });
+    root.addEventListener("pointerdown", (e) => { if (e.pointerType === "touch") return; down(e.clientX, e.clientY, e.target); });
+    root.addEventListener("pointermove", (e) => { if (e.pointerType === "touch") return; move(e.clientX); });
+    root.addEventListener("pointerup", (e) => { if (e.pointerType === "touch") return; up(); });
+  }
 
   function surahCard(s) {
     const N = names();
@@ -917,6 +943,7 @@
       document.body.appendChild(root);
     }
     root.dir = TRANSLATOR.dir || "ltr";
+    bindSwipe(root);
     const first = pg.keys[0].split(":").map(Number);
     const title = surahTitle(first[0]);
     document.title = u.doc.replace("{n}", String(n)).replace("{title}", title);
