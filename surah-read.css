@@ -346,3 +346,21 @@ body.sr-on .qm-full {
 @media (min-width: 700px) {
   .sr-page { padding-top: 1rem; }
 }
+
+body.sr-on #qtext,
+body.sr-on .tr-bar,
+body.sr-on .pn,
+html.sr-az #qtext,
+html.sr-az .tr-bar,
+html.sr-az .pn {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+#sr-root[dir="rtl"] .sr-tr { text-align: right; }
+#sr-root[dir="rtl"] .sr-by { text-align: left; }
+#sr-root[dir="rtl"] .sr-fn {
+  border-left: 0;
+  border-right: 3px solid var(--sr-gold);
+}
+#sr-root[dir="rtl"] .sr-chip { text-align: right; }
