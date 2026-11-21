@@ -25,23 +25,11 @@ body.sr-on.qlb-on .sr-page {
 }
 
 html.sr-az #gate,
-html.sr-boot #gate,
 html.sr-az body > header,
-html.sr-boot body > header,
 html.sr-az #page,
-html.sr-boot #page,
 html.sr-az .num,
-html.sr-boot .num,
 html.sr-az .qj,
-html.sr-boot .qj,
-html.sr-az .seo-crawl,
-html.sr-boot .seo-crawl,
-html.sr-az #qtext,
-html.sr-boot #qtext,
-html.sr-az .tr-bar,
-html.sr-boot .tr-bar,
-html.sr-az .pn,
-html.sr-boot .pn {
+html.sr-az .seo-crawl {
   visibility: hidden !important;
 }
 body.sr-on #gate,
@@ -50,10 +38,7 @@ body.sr-on #page,
 body.sr-on .num,
 body.sr-on .qj,
 body.sr-on .seo-crawl,
-body.sr-on .qm-full,
-body.sr-on #qtext,
-body.sr-on .tr-bar,
-body.sr-on .pn {
+body.sr-on .qm-full {
   display: none !important;
   visibility: hidden !important;
 }
@@ -361,12 +346,3 @@ body.sr-on .pn {
 @media (min-width: 700px) {
   .sr-page { padding-top: 1rem; }
 }
-
-#sr-root[dir="rtl"] .sr-tr { text-align: right; }
-#sr-root[dir="rtl"] .sr-by { text-align: left; }
-#sr-root[dir="rtl"] .sr-fn {
-  border-left: 0;
-  border-right: 3px solid var(--sr-gold);
-  border-radius: 0.4rem 0 0 0.4rem;
-}
-#sr-root[dir="rtl"] .sr-chip { text-align: right; }
