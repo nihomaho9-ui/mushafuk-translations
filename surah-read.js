@@ -2,7 +2,8 @@
 (function () {
   const BISM = "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ";
   const ROOT = new URL("/", location.href);
-  const MUSAYEV_URL = new URL("tr/az.musayev.json", ROOT).href;
+  const TR_ROOT = location.hostname === "t.mushafuk.online" ? "https://mushafuk.online/" : new URL("/", location.href).href;
+  const MUSAYEV_URL = new URL("tr/az.musayev.json", TR_ROOT).href;
   const UTHMANI_URL = new URL("quran-uthmani.txt", ROOT).href;
   const AYAH_MAP_URL = new URL("yazi-ayahs.json", ROOT).href;
   const NAMES_AZ = "Fatihə,Bəqərə,Ali-İmran,Nisa,Maidə,Ənam,Əraf,Ənfal,Tövbə,Yunus,Hud,Yusuf,Rəd,İbrahim,Hicr,Nəhl,İsra,Kəhf,Məryəm,Taha,Ənbiya,Həcc,Muminun,Nur,Furqan,Şuəra,Nəml,Qəsəs,Ankəbut,Rum,Loğman,Səcdə,Əhzab,Səba,Fatir,Yasin,Saffat,Sad,Zumər,Ğafir,Fussilət,Şura,Zuxruf,Duxan,Casiyə,Əhqaf,Muhəmməd,Fəth,Hucurat,Qaf,Zariyat,Tur,Nəcm,Qəmər,Rəhman,Vaqiə,Hədid,Mucadələ,Həşr,Mumtəhinə,Saff,Cumə,Munafiqun,Təğabun,Talaq,Təhrim,Mulk,Qələm,Haqqə,Məaric,Nuh,Cin,Muzzəmmil,Muddəssir,Qiyamə,İnsan,Mursəlat,Nəbə,Naziat,Əbəsə,Təkvir,İnfitar,Mutəffifin,İnşiqaq,Buruc,Tariq,Əla,Ğaşiyə,Fəcr,Bələd,Şəms,Leyl,Duha,İnşirah,Tin,Ələq,Qədr,Bəyyinə,Zəlzələ,Adiyat,Qariə,Təkasur,Əsr,Huməzə,Fil,Qureyş,Maun,Kövsər,Kafirun,Nəsr,Məsəd,İxlas,Fələq,Nas".split(",");
@@ -718,7 +719,7 @@
     if (!meta.per) {
       if (meta.id === "az.musayev") return { v: await musayevAll(), f: null, per: false };
       if (!cache[meta.id]) {
-        const j = await (await fetch(new URL("tr/" + meta.id + ".json", ROOT).href)).json();
+        const j = await (await fetch(new URL("tr/" + meta.id + ".json", TR_ROOT).href)).json();
         cache[meta.id] = j.v;
       }
       return { v: cache[meta.id], f: null, per: false };
@@ -727,7 +728,7 @@
     await Promise.all(surahs.map(async (s) => {
       const k = meta.id + ":" + s;
       if (!cache[k]) {
-        const j = await (await fetch(new URL("tr/" + meta.id + "/" + s + ".json", ROOT).href)).json();
+        const j = await (await fetch(new URL("tr/" + meta.id + "/" + s + ".json", TR_ROOT).href)).json();
         cache[k] = { t: j.t || [], f: j.f || null };
       }
       out.v[s] = cache[k].t;
@@ -1069,4 +1070,6 @@
     const n = pageNoFromUrl();
     if (n) open(n);
   });
+  const boot = route();
+  if (boot) open(boot.n);
 })();
