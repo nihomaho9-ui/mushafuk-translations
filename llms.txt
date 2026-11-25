@@ -30,18 +30,17 @@ This host publishes translations of the meanings of the Quran and some translate
 - [Kurdish — Bamoki](https://t.mushafuk.online/ku/bamoki/)
 - [Kyrgyz — Hakimov](https://t.mushafuk.online/ky/hakimov/)
 - [Dutch — Rowwad](https://t.mushafuk.online/nl/rowwad/)
-- [Pashto — Roovad](https://t.mushafuk.online/ps/roovad/)
-- [Portuguese — Helmi Nasr](https://t.mushafuk.online/pt/nasr/)
+- [Pashto — Sarfaraz](https://t.mushafuk.online/ps/sarfaraz/)
 - [Somali — Yacquub](https://t.mushafuk.online/so/yacob/)
 - [Tamil — Omar](https://t.mushafuk.online/ta/omar/)
-- [Tajik — Ravod](https://t.mushafuk.online/tg/arifi/)
+- [Tajik — Khoja Mirov](https://t.mushafuk.online/tg/khawaja/)
 - [Turkish — Ali Özek](https://t.mushafuk.online/tr/meal/)
 - [Turkish — Rowwad](https://t.mushafuk.online/tr/rowwad/)
-- [Uyghur — Salih](https://t.mushafuk.online/ug/saleh/)
+- [Uyghur — al-Mukhtasar tafsir](https://t.mushafuk.online/ug/mukhtasar/)
 - [Uzbek — Mansur](https://t.mushafuk.online/uz/mansour/)
-- [Chinese — Muhammad Makin (Ma Jian), King Fahd Complex edition](https://t.mushafuk.online/zh/makin/)
+- [Chinese — Ma Jian, reviewed by Muhammad Sulaiman](https://t.mushafuk.online/zh/suliman/)
 
-On t1: [Persian — Roovad](https://t1.mushafuk.online/fa/roovad/), [Urdu — Junagarhi](https://t1.mushafuk.online/ur/junagarhi/), [Indonesian — Kemenag RI](https://t1.mushafuk.online/id/complex/), [Bengali — Zakaria](https://t1.mushafuk.online/bn/zakaria/).
+On t1: [Persian — Roovad](https://t1.mushafuk.online/fa/roovad/), [Urdu — Junagarhi](https://t1.mushafuk.online/ur/junagarhi/), [Indonesian — Sabiq](https://t1.mushafuk.online/id/sabiq/), [Bengali — Zakaria](https://t1.mushafuk.online/bn/zakaria/).
 
 ## Translated tafsirs on this host
 

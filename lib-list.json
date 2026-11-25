@@ -80,14 +80,14 @@
     "mb": 2.5
   },
   {
-    "id": "tajik_arifi",
+    "id": "tajik_khawaja",
     "k": "tr",
-    "name": "Маркази тарҷумаи Равод",
+    "name": "Хоҷа Миров Хоҷа Мир",
     "by": "Тоҷикӣ",
     "lang": "tg",
     "dir": "ltr",
     "per": true,
-    "mb": 1.8
+    "mb": 2.3
   },
   {
     "id": "kyrgyz_hakimov",
@@ -100,19 +100,19 @@
     "mb": 2.4
   },
   {
-    "id": "uyghur_saleh",
+    "id": "uyghur_mokhtasar",
     "k": "tr",
-    "name": "مۇھەممەد سالىھ",
+    "name": "مۇختەسەر تەفسىر",
     "by": "ئۇيغۇرچە",
     "lang": "ug",
     "dir": "rtl",
     "per": true,
-    "mb": 2.1
+    "mb": 3.2
   },
   {
-    "id": "pashto_rwwad",
+    "id": "pashto_sarfaraz",
     "k": "tr",
-    "name": "د رواد د ژباړې مرکز",
+    "name": "مولوي جانباز سرفراز",
     "by": "پښتو",
     "lang": "ps",
     "dir": "rtl",
@@ -185,16 +185,6 @@
     "name": "Isa García",
     "by": "Español",
     "lang": "es",
-    "dir": "ltr",
-    "per": true,
-    "mb": 1.2
-  },
-  {
-    "id": "portuguese_nasr",
-    "k": "tr",
-    "name": "Helmi Nasr",
-    "by": "Português",
-    "lang": "pt",
     "dir": "ltr",
     "per": true,
     "mb": 1.2
