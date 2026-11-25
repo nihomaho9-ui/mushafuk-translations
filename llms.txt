@@ -39,8 +39,9 @@ This host publishes translations of the meanings of the Quran and some translate
 - [Turkish — Rowwad](https://t.mushafuk.online/tr/rowwad/)
 - [Uyghur — Salih](https://t.mushafuk.online/ug/saleh/)
 - [Uzbek — Mansur](https://t.mushafuk.online/uz/mansour/)
+- [Chinese — Muhammad Makin (Ma Jian), King Fahd Complex edition](https://t.mushafuk.online/zh/makin/)
 
-On t1: [Persian — Roovad](https://t1.mushafuk.online/fa/roovad/), [Urdu — Junagarhi](https://t1.mushafuk.online/ur/junagarhi/).
+On t1: [Persian — Roovad](https://t1.mushafuk.online/fa/roovad/), [Urdu — Junagarhi](https://t1.mushafuk.online/ur/junagarhi/), [Indonesian — Kemenag RI](https://t1.mushafuk.online/id/complex/), [Bengali — Zakaria](https://t1.mushafuk.online/bn/zakaria/).
 
 ## Translated tafsirs on this host
 
